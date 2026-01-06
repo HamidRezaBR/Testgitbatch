@@ -9,6 +9,7 @@ class Person(ABC):
 class Man(Person):
     def hello():
         print("Hello Hitler")
+        print("Develop")
 
 
 if __name__ == "__main__":
