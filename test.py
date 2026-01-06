@@ -5,11 +5,11 @@ class Person(ABC):
         self.name = name
         self.age = age
 
-
+# Bye
 class Man(Person):
     def hello():
-        print("Hello Hitler")
-        print("Develop")
+        print("Bye Hitler")
+        print("Bye")
 
 
 if __name__ == "__main__":
