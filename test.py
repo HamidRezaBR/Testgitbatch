@@ -4,12 +4,11 @@ class Person(ABC):
     def __init__(self, name, age):
         self.name = name
         self.age = age
-
-# hello
+# Bye
 class Man(Person):
     def hello():
-        print("Hello Hitler")
-        print("Develop")
+        print("Bye Hitler")
+        print("Bye")
 
 
 if __name__ == "__main__":
