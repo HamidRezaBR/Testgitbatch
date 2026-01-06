@@ -9,6 +9,7 @@ class Person(ABC):
 class Man(Person):
     def hello():
         print("Hello")
+        print("Hello again")
 
 
 if __name__ == "__main__":
